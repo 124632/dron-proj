@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation=" http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+	<bean class="com.xworkz.spring.component.Drone" id="drone">
+	</bean>
+	<bean class="java.lang.String" id="string"></bean>
+	<bean class="java.lang.Thread" id="thread"></bean>
+	<bean class="java.util.ArrayList" id="arraylist"></bean>
+	<bean class="java.util.LinkedList" id="linkedlists"></bean>
+	<bean class="java.util.Collections" id="collections"></bean>
+	<bean class="java.lang.Exception" id="exception"></bean>
+	<bean class="java.lang.Object" id="object"></bean>
+	<bean class="java.util.Vector" id="vector"></bean>
+	<bean class="java.util.HashMap" id="hashmap"></bean>
+	<bean class="java.util.TreeSet" id="treeset"></bean>
+	
+</beans>
